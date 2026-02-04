@@ -39,19 +39,40 @@ Bienvenue sur mon portfolio professionnel. Ce document regroupe mes expériences
 * [Tableau de synthèse des compétences (E4)](./docs/tableau-competences.xlsx)
 
 <style>
-  header, footer { display: none !important; }
+  /* Masque les éléments inutiles de GitHub */
+  header, footer, .sidebar { display: none !important; }
+
   body { 
     background-color: #121212; 
     color: #e0e0e0; 
-    font-family: 'Segoe UI', sans-serif; 
-    line-height: 1.6;
-    padding: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    line-height: 1.8; /* Espace entre les lignes */
+    padding: 60px 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centre horizontalement le bloc principal */
+    font-size: 1.2rem; /* Augmente la taille globale du texte */
   }
-  .wrapper { max-width: 950px; margin: 0; }
+
+  .wrapper { 
+    max-width: 900px; /* Largeur maximale pour que ce ne soit pas trop étiré */
+    width: 100%;
+    text-align: center; /* Centre le texte à l'intérieur du bloc */
+  }
+
+  /* Aligne les listes à gauche pour la lisibilité, mais garde le bloc centré */
+  ul { 
+    display: inline-block; 
+    text-align: left; 
+    margin-top: 10px;
+  }
+
+  h1 { font-size: 2.5rem; color: #ffffff; border-bottom: 2px solid #333; padding-bottom: 20px; }
+  h2 { font-size: 1.8rem; color: #4da6ff; margin-top: 50px; }
+  h3 { font-size: 1.4rem; color: #bb86fc; }
+  
   a { color: #4da6ff; text-decoration: none; font-weight: bold; }
-  a:hover { text-decoration: underline; }
-  h1 { border-bottom: 2px solid #333; padding-bottom: 15px; color: #ffffff; }
-  h2 { color: #4da6ff; margin-top: 40px; border-left: 4px solid #4da6ff; padding-left: 15px; }
-  h3 { color: #bb86fc; margin-top: 25px; }
-  hr { border: 0; border-top: 1px solid #333; margin: 30px 0; }
+  a:hover { text-decoration: underline; color: #82caff; }
+  
+  hr { border: 0; border-top: 1px solid #333; margin: 40px 0; }
 </style>
