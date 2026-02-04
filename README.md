@@ -37,39 +37,3 @@ Bienvenue sur mon portfolio professionnel. Ce document regroupe mes expériences
 ## 📂 Documents Administratifs
 * [Curriculum Vitae](./docs/CV.md)
 * [Tableau de synthèse des compétences (E4)](./docs/tableau-competences.xlsx)
-
-<style>
-  /* Masque les éléments inutiles de GitHub */
-  header, footer, .sidebar { display: none !important; }
-<style>
-  /* On cache tout ce qui gêne */
-  header, footer, .sidebar, . accessory { display: none !important; }
-
-  /* On centre tout le corps de la page */
-  body {
-    background-color: #121212 !important;
-    color: #e0e0e0 !important;
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important; /* Centre horizontalement */
-    text-align: center !important;  /* Centre le texte */
-    margin: 0 !important;
-    padding: 50px 20px !important;
-    font-size: 1.3rem !important; /* Texte plus grand */
-  }
-
-  /* On s'assure que le contenu ne s'étale pas trop */
-  section.main-content, .wrapper, main {
-    max-width: 900px !important;
-    width: 100% !important;
-  }
-
-  /* Pour que les listes restent lisibles (alignées à gauche mais centrées dans la page) */
-  ul {
-    display: inline-block;
-    text-align: left;
-  }
-
-  h1 { font-size: 3rem !important; }
-  h2 { font-size: 2rem !important; color: #4da6ff !important; }
-</style>
