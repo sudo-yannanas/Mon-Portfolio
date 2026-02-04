@@ -2,7 +2,7 @@
 layout: default
 title: Acceuil
 nav_order: 1
-has_children: true  # <--- Indique que c'est un menu déroulant
+has_children: true
 ---
 
 # Portfolio de COUDRAIS TROCHERIE Yann - BTS SIO SISR
