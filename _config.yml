@@ -1,3 +1,3 @@
-title: Mon Portfolio Admin Sys
-description: Documentation technique et projets
-remote_theme: pages-themes/slate@v0.2.0
+theme: jekyll-theme-minimal
+title: # Laisse vide pour ne pas avoir de gros titre en haut
+description: # Laisse vide
