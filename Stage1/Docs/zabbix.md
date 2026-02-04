@@ -1,7 +1,7 @@
 ---
 layout: default
 title: zabbix
-nav_order: 2
+nav_order: 3
 parent: Stage1-Docs
 ---
 
