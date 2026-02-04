@@ -1,3 +1,10 @@
+---
+layout: default
+title: zabbix
+nav_order: 2
+parent: Stage1-Docs
+---
+
 # Installation et Sécurisation d'un Domaine ADDS avec "Hello-My-Directory"
 
 Cette documentation détaille la mise en œuvre d'un contrôleur de domaine Active Directory Domain Services (ADDS) en suivant les recommandations de sécurité actuelles, grâce à l'outil **Hello-My-Directory**.
