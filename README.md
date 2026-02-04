@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Projets SISR
-nav_order: 3
+title: Acceuil
+nav_order: 1
 has_children: true  # <--- Indique que c'est un menu déroulant
 ---
 
