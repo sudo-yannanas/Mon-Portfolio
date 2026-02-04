@@ -41,38 +41,35 @@ Bienvenue sur mon portfolio professionnel. Ce document regroupe mes expériences
 <style>
   /* Masque les éléments inutiles de GitHub */
   header, footer, .sidebar { display: none !important; }
+<style>
+  /* On cache tout ce qui gêne */
+  header, footer, .sidebar, . accessory { display: none !important; }
 
-  body { 
-    background-color: #121212; 
-    color: #e0e0e0; 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    line-height: 1.8; /* Espace entre les lignes */
-    padding: 60px 20px;
-    margin: 0;
-    display: flex;
-    justify-content: center; /* Centre horizontalement le bloc principal */
-    font-size: 1.2rem; /* Augmente la taille globale du texte */
+  /* On centre tout le corps de la page */
+  body {
+    background-color: #121212 !important;
+    color: #e0e0e0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important; /* Centre horizontalement */
+    text-align: center !important;  /* Centre le texte */
+    margin: 0 !important;
+    padding: 50px 20px !important;
+    font-size: 1.3rem !important; /* Texte plus grand */
   }
 
-  .wrapper { 
-    max-width: 900px; /* Largeur maximale pour que ce ne soit pas trop étiré */
-    width: 100%;
-    text-align: center; /* Centre le texte à l'intérieur du bloc */
+  /* On s'assure que le contenu ne s'étale pas trop */
+  section.main-content, .wrapper, main {
+    max-width: 900px !important;
+    width: 100% !important;
   }
 
-  /* Aligne les listes à gauche pour la lisibilité, mais garde le bloc centré */
-  ul { 
-    display: inline-block; 
-    text-align: left; 
-    margin-top: 10px;
+  /* Pour que les listes restent lisibles (alignées à gauche mais centrées dans la page) */
+  ul {
+    display: inline-block;
+    text-align: left;
   }
 
-  h1 { font-size: 2.5rem; color: #ffffff; border-bottom: 2px solid #333; padding-bottom: 20px; }
-  h2 { font-size: 1.8rem; color: #4da6ff; margin-top: 50px; }
-  h3 { font-size: 1.4rem; color: #bb86fc; }
-  
-  a { color: #4da6ff; text-decoration: none; font-weight: bold; }
-  a:hover { text-decoration: underline; color: #82caff; }
-  
-  hr { border: 0; border-top: 1px solid #333; margin: 40px 0; }
+  h1 { font-size: 3rem !important; }
+  h2 { font-size: 2rem !important; color: #4da6ff !important; }
 </style>
