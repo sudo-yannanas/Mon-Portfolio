@@ -1,4 +1,4 @@
-# Portfolio de TKT FRR - BTS SIO SISR
+# Portfolio de COUDRAIS TROCHERIE Yann - BTS SIO SISR
 
 Bienvenue sur mon portfolio professionnel. Ce document regroupe mes expériences, mes projets réalisés en formation et mes missions en entreprise.
 
@@ -6,11 +6,10 @@ Bienvenue sur mon portfolio professionnel. Ce document regroupe mes expériences
 
 ## 🏢 Expériences en Entreprise (Stages)
 
-### [Année 202X] - [Nom de l'entreprise]
-**Sujet :** Modernisation de l'infrastructure et gestion de parc.
-* [Consulter le rapport de stage](./docs/rapport-stage-1.md)
-* [Fiche d'activité : Déploiement de postes](./docs/fiche-deploiement.md)
-* **Preuves :** (Screenshots de l'AD, inventaire GLPI...)
+### [Année 2025] - COMCYBER
+**Sujet :** Installation d'une baie serveur.
+* [Consulter les documentation du stage](./Stage1/Docs/index.md)
+* [Consulter les preuves du stage](./Stage1/Preuves/index.md)
 
 ---
 
