@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Zabbix
-parent: a
-nav_order: 20
+parent: Stage1-Docs
+nav_order: 3
 ---
 
 # Installation et Configuration de Zabbix sur Alma Linux 8.1
