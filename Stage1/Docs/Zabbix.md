@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Supervision avec Zabbix
-parent: Missions SISR
+title: Zabbix
+parent: a
 nav_order: 20
 ---
 
