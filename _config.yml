@@ -5,3 +5,6 @@ description: BTS SIO SISR
 # Active le mode sombre
 color_scheme: dark
 baseurl: "/Mon-Portfolio"
+
+# Enlever : Table of contents
+has_toc: false
