@@ -7,22 +7,25 @@ nav_order: 3
 
 # Installation et Configuration de Zabbix sur Alma Linux 8.1
 
-Cette documentation présente la mise en place d'une solution de supervision réseau à l'aide de Zabbix, installé sur une base Alma Linux.
+Cette documentation présente la mise en place d'une solution de supervision réseau à l'aide de Zabbix, installé sur une base Alma Linux (il est possible d'adapter la documentation à n'importe quel système d'exploitation linux).
 
 ## 1. Installation du serveur Zabbix
 
 ### Partitionnement et Sécurité
-Le serveur a été déployé sur **Alma Linux 8.1**. Le partitionnement a été réalisé en suivant les recommandations de l'**ANSSI** afin d'isoler les points de montage critiques et d'assurer la disponibilité du système.
+Le serveur a été déployé sur **Alma Linux 8.1**. Pour garantir la stabilité du système, le partitionnement a été réalisé en suivant les préconisations de l'**ANSSI** (isolation des partitions `/home`, `/var` et `/var/log`).
+
+Partitionnement réalisées sur la machine : 
 
 <img src="../Preuves/partitionnement.png" alt="Description" width="50%">
 
 * **Intégration au domaine :** Le serveur a été joint au domaine Active Directory pour faciliter l'administration.
 
+<img src="../Preuves/zabbix_domaine.png" alt="Description" width="50%">
+
 ### Déploiement logiciel
-L'installation s'appuie sur le dépôt officiel Zabbix pour Alma Linux.
-1. Configuration des dépôts officiels.
-2. Installation du serveur Zabbix, de l'interface Web et de l'agent.
-3. Configuration de la base de données (MariaDB).
+L'installation s'appuie sur la documentation officiel Zabbix pour Alma Linux accesible [ici](https://www.zabbix.com/download?zabbix=7.4&os_distribution=alma_linux&os_version=10&components=server_frontend_agent&db=mysql&ws=apache).
+
+> Note: Vous pouvez modifier les paramètres en haut de la page pour vous adapter à vos conditions (ex : version de zabbix, OS linux utilisé, ...)
 
 ---
 
