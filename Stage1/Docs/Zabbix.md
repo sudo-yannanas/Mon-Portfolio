@@ -14,7 +14,7 @@ Cette documentation présente la mise en place d'une solution de supervision ré
 ### Partitionnement et Sécurité
 Le serveur a été déployé sur **Alma Linux 8.1**. Le partitionnement a été réalisé en suivant les recommandations de l'**ANSSI** afin d'isoler les points de montage critiques et d'assurer la disponibilité du système.
 
-![Partitionnement Alma Linux 8.1](../Preuves/partitionnement.png)
+<img src="../Preuves/partitionnement.png" alt="Description" width="30%">
 
 * **Intégration au domaine :** Le serveur a été joint au domaine Active Directory pour faciliter l'administration.
 
